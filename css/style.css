@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::selection {
+    background-color: #f55c4e;
+    color: #e0e5e9;
+}
+.container {
+    background-color: #e0e5e9;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 6rem;
+    font-family: Impact;
+    margin-bottom: 2rem;
+    color: #f55c4e;
+}
+
+.clickHere {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+button {
+    width: 18rem;
+    height: 4rem;
+    background-color: #f55c4e;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 1.4rem;
+}
+
+button:hover{
+    background-color: #be4a3f;
+}
+
+.output {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: block;
+}
